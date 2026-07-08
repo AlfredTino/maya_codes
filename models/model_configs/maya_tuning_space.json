@@ -1,0 +1,142 @@
+{
+    "model": {
+        "hidden_size": [
+            "int",
+            64,
+            256,
+            32,
+            false
+        ],
+        "intermediate_size": [
+            "categorical",
+            [
+                0.8,
+                1,
+                1.3,
+                2
+            ]
+        ],
+        "num_heads": [
+            "categorical",
+            [
+                8,
+                32,
+                1,
+                4
+            ]
+        ],
+        "num_layers": [
+            "int",
+            1,
+            16,
+            1,
+            false
+        ],
+        "dropout_ratio": [
+            "uniform",
+            0.0,
+            0.3
+        ],
+        "add_act": [
+            "categorical",
+            [
+                true,
+                false 
+            ]
+        ],
+        "if_bias": [
+            "categorical",
+            [
+                true,
+                false 
+            ]
+        ],
+        "act_type": [
+            "categorical",
+            [
+                "relu",
+                "prelu"
+            ]
+        ],
+        "num_branch":  [
+            "int",
+            2,
+            8,
+            1,
+            false
+        ],
+        "batch_size":  [
+            "categorical",
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ],
+        "mlp_using_legacy":  [
+            "categorical",
+            [
+                true,
+                false 
+            ]
+        ],
+        "decoder_configs": {
+            "num_decoder_layers": [
+                "int",
+                2,
+                6,
+                1,
+                false
+            ],
+            "decoder_layer_configs": {
+                "decoder_dropout_ratio": [
+                    "uniform",
+                    0.0,
+                    0.3
+                ],
+                "decoder_intermediate_size": [
+                    "categorical",
+                    [
+                        0.8,
+                        1,
+                        1.3,
+                        2
+                    ]
+                ],
+                "decoder_act_type": [
+                    "categorical",
+                    [
+                        "relu",
+                        "prelu"
+                    ]
+                ],
+                "decoder_if_bias":  [
+                    "categorical",
+                    [
+                        true,
+                        false 
+                    ]
+                ],
+                "qk_using_same_linear":   [
+                    "categorical",
+                    [
+                        true,
+                        false 
+                    ]
+                ]
+            }
+        }
+    },
+    "training": {
+        "lr": [
+            "loguniform",
+            1e-05,
+            0.005
+        ],
+        "weight_decay": [
+            "uniform",
+            0.0,
+            0.3
+        ]
+    }
+}

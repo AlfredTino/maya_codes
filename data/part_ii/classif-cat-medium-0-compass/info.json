@@ -1,0 +1,10 @@
+{
+    "name": "classif-cat-medium-0-compass",
+    "id": "classif-cat-medium-0-compass",
+    "task_type": "binclass",
+    "train_size": 10000,
+    "val_size": 1993,
+    "test_size": 4651,
+    "n_num_features": 8,
+    "n_cat_features": 9
+}

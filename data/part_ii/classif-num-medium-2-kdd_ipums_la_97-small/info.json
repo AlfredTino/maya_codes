@@ -1,0 +1,10 @@
+{
+    "name": "classif-num-medium-2-kdd_ipums_la_97-small",
+    "id": "classif-num-medium-2-kdd_ipums_la_97-small",
+    "task_type": "binclass",
+    "train_size": 3631,
+    "val_size": 467,
+    "test_size": 1090,
+    "n_num_features": 20,
+    "n_cat_features": 0
+}

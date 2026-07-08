@@ -1,0 +1,10 @@
+{
+    "name": "classif-cat-medium-0-KDDCup09_upselling",
+    "id": "classif-cat-medium-0-KDDCup09_upselling",
+    "task_type": "binclass",
+    "train_size": 3589,
+    "val_size": 461,
+    "test_size": 1078,
+    "n_num_features": 34,
+    "n_cat_features": 15
+}

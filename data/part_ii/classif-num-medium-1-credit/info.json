@@ -1,0 +1,10 @@
+{
+    "name": "classif-num-medium-1-credit",
+    "id": "classif-num-medium-1-credit",
+    "task_type": "binclass",
+    "train_size": 10000,
+    "val_size": 2014,
+    "test_size": 4700,
+    "n_num_features": 10,
+    "n_cat_features": 0
+}

@@ -1,0 +1,10 @@
+{
+    "name": "regression-cat-medium-0-OnlineNewsPopularity",
+    "id": "regression-cat-medium-0-OnlineNewsPopularity",
+    "task_type": "regression",
+    "train_size": 9999,
+    "val_size": 8893,
+    "test_size": 20752,
+    "n_num_features": 45,
+    "n_cat_features": 14
+}

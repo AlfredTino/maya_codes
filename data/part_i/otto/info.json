@@ -1,0 +1,11 @@
+{
+    "name": "Otto Group Products",
+    "id": "otto--default",
+    "task_type": "multiclass",
+    "n_num_features": 93,
+    "n_cat_features": 0,
+    "train_size": 39601,
+    "val_size": 9901,
+    "test_size": 12376,
+    "n_classes": 9
+}

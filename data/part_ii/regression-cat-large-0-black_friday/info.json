@@ -1,0 +1,10 @@
+{
+    "name": "regression-cat-large-0-black_friday",
+    "id": "regression-cat-large-0-black_friday",
+    "task_type": "regression",
+    "train_size": 50000,
+    "val_size": 35046,
+    "test_size": 50000,
+    "n_num_features": 4,
+    "n_cat_features": 5
+}

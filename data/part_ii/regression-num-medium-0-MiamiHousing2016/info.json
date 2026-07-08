@@ -1,0 +1,10 @@
+{
+    "name": "regression-num-medium-0-MiamiHousing2016",
+    "id": "regression-num-medium-0-MiamiHousing2016",
+    "task_type": "regression",
+    "train_size": 9752,
+    "val_size": 1254,
+    "test_size": 2926,
+    "n_num_features": 13,
+    "n_cat_features": 0
+}

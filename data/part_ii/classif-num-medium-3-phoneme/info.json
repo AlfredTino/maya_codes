@@ -1,0 +1,10 @@
+{
+    "name": "classif-num-medium-3-phoneme",
+    "id": "classif-num-medium-3-phoneme",
+    "task_type": "binclass",
+    "train_size": 2220,
+    "val_size": 285,
+    "test_size": 667,
+    "n_num_features": 5,
+    "n_cat_features": 0
+}

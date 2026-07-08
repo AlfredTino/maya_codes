@@ -1,0 +1,36 @@
+{
+    "name": "income",
+    "task_type": "binclass",
+    "num_classes": 2,
+    "n_num_features": 6,
+    "n_cat_features": 8,
+    "train_size": 31259,
+    "val_size": 7815,
+    "test_size": 9768,
+    "task_intro": "",
+    "feature_intro": {
+        "num":{
+            "age": "age",
+            "fnlwgt": "fnlwgt", 
+            "education-num": "education-num", 
+            "capital-gain": "capital-gain", 
+            "capital-loss": "capital-loss", 
+            "hours-per-week": "hours-per-week"
+        },
+        "cat":{
+            "workclass": "workclass", 
+            "education": "education", 
+            "marital-status": "marital-status", 
+            "occupation": "occupation", 
+            "relationship": "relationship", 
+            "race": "race", 
+            "sex": "sex", 
+            "native-country": "native-country"
+	    }
+    },
+    "target_intro":{
+        "0": "income >=50K",
+        "1": "income <50K"
+    },
+    "source": "https://www.kaggle.com/lodetomasi1995/income-classification"
+}

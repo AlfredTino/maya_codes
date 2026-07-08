@@ -1,0 +1,10 @@
+{
+    "name": "regression-num-medium-0-cpu_act",
+    "id": "regression-num-medium-0-cpu_act",
+    "task_type": "regression",
+    "train_size": 5734,
+    "val_size": 737,
+    "test_size": 1721,
+    "n_num_features": 21,
+    "n_cat_features": 0
+}

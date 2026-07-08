@@ -1,0 +1,7 @@
+category_encoders==2.6.3
+einops==0.8.0
+numpy==1.26.4
+optuna==3.6.1
+scikit_learn==1.5.1
+torch==2.2.0
+tqdm==4.66.2

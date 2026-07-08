@@ -1,0 +1,10 @@
+{
+    "name": "classif-cat-medium-2-rl",
+    "id": "classif-cat-medium-2-rl",
+    "task_type": "binclass",
+    "train_size": 3479,
+    "val_size": 447,
+    "test_size": 1044,
+    "n_num_features": 5,
+    "n_cat_features": 7
+}

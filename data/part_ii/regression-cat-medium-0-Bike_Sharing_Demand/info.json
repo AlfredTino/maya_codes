@@ -1,0 +1,10 @@
+{
+    "name": "regression-cat-medium-0-Bike_Sharing_Demand",
+    "id": "regression-cat-medium-0-Bike_Sharing_Demand",
+    "task_type": "regression",
+    "train_size": 10000,
+    "val_size": 2213,
+    "test_size": 5166,
+    "n_num_features": 6,
+    "n_cat_features": 5
+}

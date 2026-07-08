@@ -1,0 +1,10 @@
+{
+    "name": "regression-num-medium-1-fifa",
+    "id": "regression-num-medium-1-fifa",
+    "task_type": "regression",
+    "train_size": 10000,
+    "val_size": 2418,
+    "test_size": 5645,
+    "n_num_features": 5,
+    "n_cat_features": 0
+}

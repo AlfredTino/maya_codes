@@ -1,0 +1,10 @@
+{
+    "name": "regression-num-medium-1-elevators",
+    "id": "regression-num-medium-1-elevators",
+    "task_type": "regression",
+    "train_size": 10000,
+    "val_size": 1979,
+    "test_size": 4620,
+    "n_num_features": 16,
+    "n_cat_features": 0
+}

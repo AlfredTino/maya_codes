@@ -1,0 +1,35 @@
+{
+    "model": {
+        "act_type": "relu",
+        "add_act": true,
+        "batch_size": 1024,
+        "decoder_configs": {
+            "decoder_layer_configs": {
+                "decoder_act_type": "prelu",
+                "decoder_dropout_ratio": 0.02605403238480153,
+                "decoder_if_bias": true,
+                "decoder_intermediate_size": 1.3,
+                "qk_using_same_linear": false,
+                "using_scaling_L2": false
+            },
+            "num_decoder_layers": 5
+        },
+        "dropout_ratio": 0.0652345580292239,
+        "hidden_size": 128,
+        "if_bias": false,
+        "intermediate_size": 2,
+        "label_nums": 1,
+        "last_mlp_skip": true,
+        "mlp_using_legacy": false,
+        "num_branch": 6,
+        "num_heads": 1,
+        "num_layers": 16,
+        "skip_first_norm": false,
+        "using_attn_norm": true,
+        "using_encoder_decoder_arch": true
+    },
+    "training": {
+        "lr": 5.702529282742587e-05,
+        "weight_decay": 0.2725130885164661
+    }
+}

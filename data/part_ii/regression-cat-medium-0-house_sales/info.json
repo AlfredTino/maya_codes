@@ -1,0 +1,10 @@
+{
+    "name": "regression-cat-medium-0-house_sales",
+    "id": "regression-cat-medium-0-house_sales",
+    "task_type": "regression",
+    "train_size": 10000,
+    "val_size": 3483,
+    "test_size": 8130,
+    "n_num_features": 15,
+    "n_cat_features": 2
+}
